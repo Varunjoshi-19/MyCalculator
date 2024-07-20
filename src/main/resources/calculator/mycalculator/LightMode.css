@@ -1,0 +1,85 @@
+#myPane {
+    -fx-background-color: rgb(240, 240, 240); /* Light background for the pane */
+}
+
+.button {
+    -fx-background-radius: 10px; /* Rounded corners */
+    -fx-min-width: 75px;         
+    -fx-min-height: 75px;
+    -fx-max-width: 75px;
+    -fx-max-height: 75px;
+    -fx-background-color: rgb(200, 200, 200); /* Light button color */
+    -fx-text-fill: black; /* Black text color */
+    -fx-font-size: 14pt; /* Font size */
+}
+
+.button:hover { 
+    -fx-background-color: rgb(220, 220, 220); /* Slightly lighter color on hover */
+}
+
+#myLabel {
+    -fx-background-color: rgb(200, 200, 200); /* Light background color for label */
+    -fx-font-size: 25pt;
+    -fx-text-fill: black; /* Black text color */
+    -fx-font-weight: bold; 
+}
+
+#myTextField {
+    -fx-background-color: rgb(200, 200, 200); /* Light background color */
+    -fx-font-size: 20pt;
+    -fx-text-fill: black; /* Black text color */
+    -fx-font-weight: bold;
+}
+
+#newLabel {
+    -fx-background-color: rgb(200, 200, 200); /* Light background color */
+    -fx-font-size: 15pt;
+    -fx-text-fill: black; /* Black text color */
+    -fx-font-weight: bold;
+}
+
+#clearButton {
+    -fx-font-size: 14pt;
+    -fx-background-color: rgb(255, 100, 100); /* Red button color for clear */
+    -fx-text-fill: white;
+}
+#clearButton:hover {
+    -fx-background-color: rgb(255, 130, 130); /* Lighter red on hover */
+}
+
+#Cbutton{
+    -fx-font-size: 14pt;
+    -fx-background-color: rgb(255, 100, 100); /* Red button color for C button */
+    -fx-text-fill: white;
+}
+
+#Cbutton:hover{
+    -fx-background-color: rgb(255, 130, 130); /* Lighter red on hover */
+}
+
+#equalButton {
+    -fx-background-color: rgb(0, 122, 204); /* Blue button color for equal */
+    -fx-font-size: 14pt;
+    -fx-text-fill: white;
+}
+#equalButton:hover {
+    -fx-background-color: rgb(30, 152, 234); /* Lighter blue on hover */
+}
+
+#modulusButton, #divideButton, #multipleButton, #minusButton, #addButton {
+    -fx-background-color: rgb(200, 200, 200); /* Light button color */
+    -fx-font-size: 14pt;
+    -fx-text-fill: black; /* Black text color */
+}
+#modulusButton:hover, #divideButton:hover, #multipleButton:hover, #minusButton:hover, #addButton:hover {
+    -fx-background-color: rgb(220, 220, 220); /* Slightly lighter color on hover */
+}
+
+#button0, #button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #decimalButton, #eraseButton {
+    -fx-background-color: rgb(200, 200, 200); /* Light button color */
+    -fx-font-size: 14pt;
+    -fx-text-fill: black; /* Black text color */
+}
+#button0:hover, #button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover, #button6:hover, #button7:hover, #button8:hover, #button9:hover, #decimalButton:hover, #eraseButton:hover {
+    -fx-background-color: rgb(220, 220, 220); /* Slightly lighter color on hover */
+}
